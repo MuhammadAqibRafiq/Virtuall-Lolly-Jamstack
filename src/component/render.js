@@ -76,19 +76,19 @@ const Render = ({ location }) => {
                                                 <div className='from'>—{elem.from}</div>
                                             </div>
 
-                                            <div className='card mb-3 link' style={{ background: "#000" }}>
-                                                <h6 className="d-flex justify-content-center pointer">{url} &nbsp;
-                                                    <CopyToClipboard className="" text={url} onCopy={() => setCopied(true)}>
-                                                        <FontAwesomeIcon
-                                                            className={
-                                                                copied
-                                                                    ? "mr-2 cursor-pointer"
-                                                                    : "mr-2 text-white"
-                                                            }
-                                                            icon={copied ? faClipboardCheck : faCopy}
-                                                        />
-                                                    </CopyToClipboard></h6>
-                                            </div>
+//                                             <div className='card mb-3 link' style={{ background: "#000" }}>
+//                                                 <h6 className="d-flex justify-content-center pointer">{url} &nbsp;
+//                                                     <CopyToClipboard className="" text={url} onCopy={() => setCopied(true)}>
+//                                                         <FontAwesomeIcon
+//                                                             className={
+//                                                                 copied
+//                                                                     ? "mr-2 cursor-pointer"
+//                                                                     : "mr-2 text-white"
+//                                                             }
+//                                                             icon={copied ? faClipboardCheck : faCopy}
+//                                                         />
+//                                                     </CopyToClipboard></h6>
+//                                             </div>
 
                                         </div>
                                     </div>
