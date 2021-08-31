@@ -11,14 +11,16 @@ const Render = ({ location }) => {
 
     const [links, setLinks] = useState();
     let [copied, setCopied] = useState(false)
-
+ const [loading, setLoading] = useState(false)
     const lollyId = location.search.slice(1)
     const url = location.href
 
     const loadLinks = async () => {
+        setLoading(true)
         const res = await fetch('/.netlify/functions/getLinks');
         const Links = await res.json();
         setLinks(Links)
+        setLoading(false)
         //   console.log(Links);
     }
 
