@@ -27,7 +27,7 @@ const Render = ({ location }) => {
         loadLinks();
     }, [])
 
-    console.log('LollyId', lollyId)
+//     console.log('LollyId', lollyId)
 
     return (
 
@@ -39,7 +39,7 @@ const Render = ({ location }) => {
                         const id = elem._id
 
                         if (id === lollyId) {
-                            console.log("id", id)
+//                             console.log("id", id)
                             return (
                                 <div key={key}>
 
