@@ -1,11 +1,11 @@
-import React, { useState, useEffect } from 'react'
 import './style.css';
+import React, { useState, useEffect } from 'react'
+// import { Link } from "gatsby"
 import Lolly from './lolly';
 import { CopyToClipboard } from "react-copy-to-clipboard"
 import { faCopy } from "@fortawesome/free-solid-svg-icons/faCopy"
 import { faClipboardCheck } from "@fortawesome/free-solid-svg-icons/faClipboardCheck"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faSpinner } from "@fortawesome/free-solid-svg-icons/faSpinner"
 
 const Render = ({ location }) => {
 
@@ -27,22 +27,8 @@ const Render = ({ location }) => {
         loadLinks();
     }, [])
 
-//     console.log('LollyId', lollyId)
+    console.log('LollyId', lollyId)
 
-     if (loading) {
-    return (
-    
-        <div className="flex min-w-full min-h-full flex items-center justify-center text-center flex-col">
-          <FontAwesomeIcon
-            className="text-white"
-            icon={faSpinner}
-            spin
-            size="3x"
-          />
-        </div>
-    )
-  }
-    
     return (
 
         <div>
@@ -53,7 +39,7 @@ const Render = ({ location }) => {
                         const id = elem._id
 
                         if (id === lollyId) {
-//                             console.log("id", id)
+                            console.log("id", id)
                             return (
                                 <div key={key}>
 
@@ -73,7 +59,7 @@ const Render = ({ location }) => {
                                                 <div className='from'>—{elem.from}</div>
                                             </div>
 
-                                              <div className='card mb-3 link' style={{ background: "#000" }}>
+                                            <div className='card mb-3 link' style={{ background: "#000" }}>
                                                 <h6 className="d-flex justify-content-center pointer">{url} &nbsp;
                                                     <CopyToClipboard className="" text={url} onCopy={() => setCopied(true)}>
                                                         <FontAwesomeIcon
@@ -87,7 +73,6 @@ const Render = ({ location }) => {
                                                     </CopyToClipboard></h6>
                                             </div>
 
-
                                         </div>
                                     </div>
                                 </div>
@@ -99,13 +84,8 @@ const Render = ({ location }) => {
                 }
             </div>
 
-
-
-
-
         </div>
     )
 }
 
 export default Render
-
