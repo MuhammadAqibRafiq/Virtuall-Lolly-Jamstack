@@ -11,16 +11,13 @@ const Render = ({ location }) => {
 
     const [links, setLinks] = useState();
     let [copied, setCopied] = useState(false)
- const [loading, setLoading] = useState(false)
     const lollyId = location.search.slice(1)
     const url = location.href
 
     const loadLinks = async () => {
-        setLoading(true)
         const res = await fetch('/.netlify/functions/getLinks');
         const Links = await res.json();
         setLinks(Links)
-        setLoading(false)
         //   console.log(Links);
     }
 
@@ -76,6 +73,19 @@ const Render = ({ location }) => {
                                                 <div className='from'>—{elem.from}</div>
                                             </div>
 
+                                              <div className='card mb-3 link' style={{ background: "#000" }}>
+                                                <h6 className="d-flex justify-content-center pointer">{url} &nbsp;
+                                                    <CopyToClipboard className="" text={url} onCopy={() => setCopied(true)}>
+                                                        <FontAwesomeIcon
+                                                            className={
+                                                                copied
+                                                                    ? "mr-2 cursor-pointer"
+                                                                    : "mr-2 text-white"
+                                                            }
+                                                            icon={copied ? faClipboardCheck : faCopy}
+                                                        />
+                                                    </CopyToClipboard></h6>
+                                            </div>
 
 
                                         </div>
