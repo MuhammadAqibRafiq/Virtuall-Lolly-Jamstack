@@ -1,0 +1,13 @@
+type VirtualLolly {
+    colorT: String! 
+    colorM: String! 
+    colorB: String! 
+    to: String! 
+    mess: String! 
+    from: String! 
+
+}
+
+type Query {
+    allLolly: [VirtualLolly]!
+}

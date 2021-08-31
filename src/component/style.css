@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&family=Yellowtail&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
+.main_header{
+    text-decoration: none;
+}
+.header{
+    font-weight: 300;
+    font-size: 2em;
+    color: #fff;
+    border-bottom-style: none;
+    text-shadow: #fa73d9 0 0 8px;
+    font-family: Yellowtail,cursive;
+    /* font-family: 'Rampart One', cursive; */
+    font-size: 50px;
+}
+.gap{
+    padding-left: 50px;
+}
+.subtitle{
+    font-size: 1em;
+    font-style: italic;
+    color: #ddd;
+    text-shadow: #fa73d9 1px 1px 4px;
+    /* margin-top: 1.5em; */
+    /* margin-bottom: 3em; */
+    line-height: 1.2;
+ font-size: 18;
+}
+.forminput{
+     display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left:200px;
+    margin-top: 20px;
+    width: 280px;
+} 
+.forminput > * {
+    margin: 5px;
+    padding: 2px 10px;
+} 
+.forminput > textarea {
+    height: 200px;
+    
+}
+
+ /* // RENDER // */
+
+.formrender{
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    margin-left:200px;
+    margin-top: 20px;
+ }
+.renderbox{
+    padding: 1em 2em;
+    box-shadow: 0 0 10px rgb(220 210 210 / 100%);
+    text-align: left;
+    font-style: italic;
+    font-size: 1.1em;
+    min-height: 250px;
+    justify-content: center;
+}
+.to{
+    font-family: Yellowtail,cursive;
+    font-size: 1.6em;
+    font-style: normal;
+    text-shadow: #000 0 0 10px;
+    text-transform:capitalize;
+    color: white;
+}
+.mess{
+    margin-top:20px;
+    color: rgb(0, 0, 0);
+    text-transform:capitalize;
+    font-weight: 10px;
+    font-size: 1.3em;
+    padding-left: 15px;
+}
+.from{
+    margin-top:20px ;
+    padding-left: 1em;
+    font-family: Yellowtail,cursive;
+    font-size: 1.6em;
+    font-style: normal;
+    text-shadow: #000 0 0 10px;
+    text-transform:capitalize;
+    color: white;
+}
+.link{
+    color: #fa73d9;
+    margin-top: .5em;
+    padding: .5em 1em;
+    border: 1px solid #000;
+    justify-content: center;
+    cursor: pointer;
+}
+.button{
+    margin-top: 1em;
+    box-shadow: 0 0 6px #faf173;
+    border: 2px solid #fada73;
+    background-color: transparent;
+    font-size: .9em;
+    color: #ffcd2b;
+    padding: 1em 2em;
+    border-radius: 4em;
+    cursor: pointer;
+    transition: all .3s;
+}
+.button:hover{
+    /* font-size: 20px; */
+    font-weight: 100px;
+    color: rgb(14, 14, 10);
+    background-color: rgb(240, 240, 84);
+}
+.main-profile{
+    /* position: absolute; */
+    /* width: 0px;
+    top: 0;
+    border: 0;
+    right: 0; */
+}
+.borde{
+  /* border-top: 25px solid transparent; */
+    border-left:40px solid #ebc4e0;
+    border-bottom: 25px solid transparent;
+    
+}
+.profile{
+    /* z-index: 5; */
+    /* fill: #070601;    */
+    fill: rgb(240, 21, 94);
+    position: relative;
+    right: 35px;
+    width: 10px;
+}
+
+
+
+@media only screen and (max-width: 994px) {
+    .formrender{
+        margin-left:100px;      
+     }
+}
+
+
+@media only screen and (max-width: 770px) {
+    .forminput{
+    margin-left:20px      !important;
+    }    
+    .formrender{
+        margin-left:50px;      
+     }
+}
+
+ @media only screen and (max-width: 540px) {
+    .forminput{
+    margin-left:20px   !important;;
+    width: 240px;
+    }   
+    .header{font-size: 35px !important;}
+    .subtitle{font-size: 15px;} 
+    .gap{
+        padding-left: 30px;
+    }
+    .formrender{
+        margin-left:20px;      
+     }
+} 
+@media only screen and (max-width: 470px) {
+.f{
+  display: flex;
+ flex-wrap: wrap;
+}
+}
+@media only screen and (max-width: 440px) {
+    .forminput{
+    margin-left:0px  !important;
+    }    
+    .forminput > textarea {
+        height: 100px;
+    }
+} 
+@media only screen and (max-width: 360px) { 
+    #span{
+        padding-left: 20px;
+    }
+    .header{font-size: 30px !important;}
+    .subtitle{font-size: 10px;} 
+    .gap{
+        padding-left: 10px;
+    }
+} 
+
+@media only screen and (max-width: 330px) { 
+.formrender{
+    width:250px
+}
+}
