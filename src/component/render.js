@@ -5,6 +5,7 @@ import { CopyToClipboard } from "react-copy-to-clipboard"
 import { faCopy } from "@fortawesome/free-solid-svg-icons/faCopy"
 import { faClipboardCheck } from "@fortawesome/free-solid-svg-icons/faClipboardCheck"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faSpinner } from "@fortawesome/free-solid-svg-icons/faSpinner"
 
 const Render = ({ location }) => {
 
@@ -29,6 +30,20 @@ const Render = ({ location }) => {
 
 //     console.log('LollyId', lollyId)
 
+     if (loading) {
+    return (
+    
+        <div className="flex min-w-full min-h-full flex items-center justify-center text-center flex-col">
+          <FontAwesomeIcon
+            className="text-white"
+            icon={faSpinner}
+            spin
+            size="3x"
+          />
+        </div>
+    )
+  }
+    
     return (
 
         <div>
