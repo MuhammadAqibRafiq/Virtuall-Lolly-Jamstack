@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react'
-// import { Link } from "gatsby"
+import './style.css';
 import Lolly from './lolly';
 import { CopyToClipboard } from "react-copy-to-clipboard"
 import { faCopy } from "@fortawesome/free-solid-svg-icons/faCopy"
