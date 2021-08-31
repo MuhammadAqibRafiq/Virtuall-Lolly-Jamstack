@@ -59,7 +59,7 @@ const Render = ({ location }) => {
                                                 <div className='from'>—{elem.from}</div>
                                             </div>
 
-                                            <div className='card link' style={{ background: "#000" }}>
+                                            <div className='card mb-3 link' style={{ background: "#000" }}>
                                                 <h6 className="d-flex justify-content-center pointer">{url} &nbsp;
                                                     <CopyToClipboard className="" text={url} onCopy={() => setCopied(true)}>
                                                         <FontAwesomeIcon
