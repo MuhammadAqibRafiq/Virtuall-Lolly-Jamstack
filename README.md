@@ -32,11 +32,6 @@ SOURCE CODE: https://github.com/MuhammadAqibRafiq/Virtuall-Lolly-Jamstack
 <h1>MOBILE</h1>
 
    <img src="https://github.com/MuhammadAqibRafiq/Virtuall-Lolly-Jamstack/blob/main/static/mobile.jpeg" width="300"  height="650" />
-  
-
-
-
-
 
 4.  **USED TECH**
 
@@ -46,6 +41,8 @@ SOURCE CODE: https://github.com/MuhammadAqibRafiq/Virtuall-Lolly-Jamstack
 
     - GATSBY
 
+    - FORMIK
+     
     - GRAPHQL
 
     - FAUNADB
