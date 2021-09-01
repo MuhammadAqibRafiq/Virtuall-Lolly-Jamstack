@@ -1,54 +1,54 @@
 <p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
 </p>
 <h1 align="center">
-  Gatsby minimal starter
+  VIRTUALL LOLLY APP (JAMSTACK)
 </h1>
 
-## 🚀 Quick start
+## 🚀 Quick Review
 
-1.  **Create a Gatsby site.**
+ Virtually lollipop is an website which is use to send color and sweet word to your love ones. 
+ 
+DEMO : https://www.youtube.com/watch?v=iKydTwHxGDI
+ 
+LIVE LINK : https://lollyapp.netlify.app/
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+GITHUB : https://github.com/MuhammadAqibRafiq
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
+SOURCE CODE: https://github.com/MuhammadAqibRafiq/Virtuall-Lolly-Jamstack
 
-2.  **Start developing.**
+<p align="center">
+</p>
+<h1 align="center">
+  SCREENSHOT
+</h1>
 
-    Navigate into your new site’s directory and start it up.
+<h1>DESKTOP</h1>
+  
 
-    ```shell
-    cd my-gatsby-site/
-    npm run develop
-    ```
+<h1>MOBILE</h1>
 
-3.  **Open the code and start customizing!**
 
-    Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
 
-4.  **Learn more**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+4.  **USED TECH**
 
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - JAMSTACK
 
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - NETLIFY
 
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+    - GATSBY
 
-## 🚀 Quick start (Gatsby Cloud)
+    - GRAPHQL
 
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
+    - FAUNADB
 
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+    - CSS
+
+    - FONTAWESOME
+     
+    - REACT JS
+    
+    - REACT BOOTSTRAP
