@@ -12,10 +12,6 @@ DEMO : https://www.youtube.com/watch?v=iKydTwHxGDI
  
 LIVE LINK : https://lollyapp.netlify.app/
 
-GITHUB : https://github.com/MuhammadAqibRafiq
-
-SOURCE CODE: https://github.com/MuhammadAqibRafiq/Virtuall-Lolly-Jamstack
-
 <p align="center">
 </p>
 <h1 align="center">
